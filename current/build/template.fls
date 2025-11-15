@@ -47,6 +47,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT build/template.aux
+INPUT build/template.aux
+INPUT build/template.aux
 OUTPUT build/template.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty

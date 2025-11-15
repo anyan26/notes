@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 NOV 2025 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 NOV 2025 00:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -169,8 +169,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box56
-)
-No file template.aux.
+) (build/template.aux)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -187,7 +186,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -255,208 +254,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@enditemize ->\enit@after 
-                               \endlist \ifx \enit@series \relax \else \ifnu...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@enditemize ...x \else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.21 \end{itemize}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.21 \end{itemize}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.21 \end{itemize}
-                  
-I'm forgetting what you said and using zero instead.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@enditemize ...ist \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.21 \end{itemize}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.21 \end{itemize}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.21 \end{itemize}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.21 \end{itemize}
-                  
-I'm forgetting what you said and using zero instead.
-
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \end{itemize}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/anyan/Documents/notes/notes/current/template.tex:21: Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.21 \end{itemize}
-                  
-Things are pretty mixed up, but I think the worst is over.
-
 (build/template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -464,10 +261,10 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4182 strings out of 473190
- 64038 string characters out of 5715801
+ 4179 strings out of 473190
+ 63976 string characters out of 5715801
  458856 words of memory out of 5000000
- 27428 multiletter control sequences out of 15000+600000
+ 27423 multiletter control sequences out of 15000+600000
  559135 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,1n,70p,269b,37s stack positions out of 10000i,1000n,20000p,200000b,200000s
