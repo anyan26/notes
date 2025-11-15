@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+% --- Packages ---
+\usepackage{amsmath, amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{amsthm}
+\usepackage{algorithmic} % Use algorithmic package for the algorithm block
+
+% Defines a new environment named 'theorem' that prints "Theorem" and is numbered by section.
+\newtheorem{theorem}{Theorem}[] 
+
+% Defines a new environment named 'lemma' that prints "Lemma" and shares the numbering counter with 'theorem'.
+\newtheorem{lemma}[theorem]{Lemma} 
+
+% Defines an unnumbered environment named 'remark' that prints "Remark".
+\newtheorem*{remark}{Remark} 
+
+% --- Custom Macros ---
+\newcommand{\getsr}{\stackrel{\$}{\leftarrow}}
+\newcommand{\Enc}{\text{Enc}}
+\newcommand{\Dec}{\text{Dec}}
+\newcommand{\Adv}{\text{Adv}}
+\newcommand{\calO}{\mathcal{O}}
+
+\geometry{margin=1in}
+\setlength{\parindent}{0pt}
+\begin{document}
+\section*{Definitions}
+\begin{itemize}
+\item Complex numbers: ordered pair $(a, b), a, b \in R$
+\begin{itemize}
+    \item Commutativity, associativity, identity, additive inverse, multiplicative inverse, distributive property
+\end{itemize}
+\item List of length n $n \in N_{>0}$ is an ordered collection of $n$ element.
+\item Vector Space
+\begin{itemize}
+    \item Commutativity of addition, associativity, additive identity, additive inverse, multiplicative identity, distributive property.
+\end{itemize}
+\item $F^S$ where S is a set denote set of functions from $S$ to $F$: (ex: hash $\{0, 1\}^{U})$
+\end{itemize}
+\section*{Proofs}
+\begin{theorem}
+$0v=0$ for all $v \in V$
+\end{theorem}
+\begin{proof}
+$\forall v \in V$, 
+\begin{align*}
+0v &= (0 + 0)v\\
+&= 0v + 0v\\
+-0v + 0v &= -0v + (0v + 0v)\\
+0 &= (-0v + 0v) + 0v \\
+0 &= 0v
+\end{align*}
+\end{proof}
+\end{document}

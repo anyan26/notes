@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+
+% --- Packages ---
+\usepackage{amsmath, amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{algorithmic} % Use algorithmic package for the algorithm block
+
+% --- Custom Macros ---
+\newcommand{\getsr}{\stackrel{\$}{\leftarrow}}
+\newcommand{\Enc}{\text{Enc}}
+\newcommand{\Dec}{\text{Dec}}
+\newcommand{\Adv}{\text{Adv}}
+\newcommand{\calO}{\mathcal{O}}
+
+\geometry{margin=1in}
+\setlength{\parindent}{0pt}
+\begin{document}
+\section*{Chapter 1 - Real and Complex Number Systems}
+\subsection*{Quick Definitions}
+\begin{itemize}
+    \item A order on set S is a relation denoted by $<$ with following properties
+    \begin{itemize}
+        \item if $x, y \in S$, only one of following statements are true: $x < y, x = y, y < x$
+        \item If $x, y, z \in S$ and $x < y, y< z$ then $x < z$
+    \end{itemize}
+    \item Suppose S is an ordered set and $E \subset S$ then if $\exists \beta \in S, \forall x \in E, x \leq \beta$. Then $E$ is bounded above by $\beta$
+    \item Least upperbound property: $\alpha$ is upperbound of $E$ and if $\gamma < \beta$ $\gamma$ is not upperbound of $E$. Call $\alpha = \sup E$.
+\end{itemize}
+\end{document}
