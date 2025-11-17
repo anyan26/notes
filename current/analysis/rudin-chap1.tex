@@ -1,12 +1,19 @@
 \documentclass[12pt]{article}
 
 % --- Packages ---
-\usepackage{amsmath, amssymb}
+\usepackage{amsmath, amssymb, amsthm}
 \usepackage{mathtools}
 \usepackage{enumitem}
 \usepackage{geometry}
 \usepackage{algorithmic} % Use algorithmic package for the algorithm block
+% Defines a new environment named 'theorem' that prints "Theorem" and is numbered by section.
+\newtheorem{theorem}{Theorem}[] 
 
+% Defines a new environment named 'lemma' that prints "Lemma" and shares the numbering counter with 'theorem'.
+\newtheorem{lemma}[theorem]{Lemma} 
+
+% Defines an unnumbered environment named 'remark' that prints "Remark".
+\newtheorem*{remark}{Remark} 
 % --- Custom Macros ---
 \newcommand{\getsr}{\stackrel{\$}{\leftarrow}}
 \newcommand{\Enc}{\text{Enc}}
@@ -14,10 +21,13 @@
 \newcommand{\Adv}{\text{Adv}}
 \newcommand{\calO}{\mathcal{O}}
 
+\title{Chapter 1 - Real and Complex Number Systems}
+\date{}
 \geometry{margin=1in}
 \setlength{\parindent}{0pt}
 \begin{document}
-\section*{Chapter 1 - Real and Complex Number Systems}
+\maketitle{}
+\section*{Ordered Sets}
 \subsection*{Quick Definitions}
 \begin{itemize}
     \item A order on set S is a relation denoted by $<$ with following properties
@@ -28,4 +38,17 @@
     \item Suppose S is an ordered set and $E \subset S$ then if $\exists \beta \in S, \forall x \in E, x \leq \beta$. Then $E$ is bounded above by $\beta$
     \item Least upperbound property: $\alpha$ is upperbound of $E$ and if $\gamma < \beta$ $\gamma$ is not upperbound of $E$. Call $\alpha = \sup E$.
 \end{itemize}
+
+\subsection*{Proofs}
+\begin{theorem}
+Suppose S is an ordered set with LUB property, $B \subset S$ and B is not an empty set and B is bounded below. Let L be the set of all lower bounds of B, then $\alpha = \sup L = \inf B \in S$.
+\end{theorem}
+\begin{proof}
+Let L be the set of all lowerbounds of $B$. Since B is bounded below, L is not empty. Then since S has LUB property, sup L $\in S$.
+
+We now prove $\alpha \in L$. For all beta < alpha, notice beta is not an upperbound of L by definition of upperbounds. Then, beta is not in B because every element in B is an upperbound of L. Thus, we have $\beta >= \alpha, \forall \beta \in S$, then by definition of L, $\alpha in L$.
+We now prove $\forall \beta < \alpha$, $\beta$ is not greatest lower bound because $\alpha > \beta$ is $\alpha$ is a lower bound of B.
+
+Thus, $\alpha = \inf B$.
+\end{proof}
 \end{document}

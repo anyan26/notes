@@ -1,20 +1,12 @@
 \documentclass[12pt]{article}
 
 % --- Packages ---
-\usepackage{amsmath, amssymb, amsthm}
+\usepackage{amsmath, amssymb}
 \usepackage{mathtools}
 \usepackage{enumitem}
 \usepackage{geometry}
 \usepackage{algorithmic} % Use algorithmic package for the algorithm block
 
-% Defines a new environment named 'theorem' that prints "Theorem" and is numbered by section.
-\newtheorem{theorem}{Theorem}[] 
-
-% Defines a new environment named 'lemma' that prints "Lemma" and shares the numbering counter with 'theorem'.
-\newtheorem{lemma}[theorem]{Lemma} 
-
-% Defines an unnumbered environment named 'remark' that prints "Remark".
-\newtheorem*{remark}{Remark} 
 % --- Custom Macros ---
 \newcommand{\getsr}{\stackrel{\$}{\leftarrow}}
 \newcommand{\Enc}{\text{Enc}}
@@ -25,5 +17,9 @@
 \geometry{margin=1in}
 \setlength{\parindent}{0pt}
 \begin{document}
+\section*{Meet in The Middle}
+Lower brute force search time complexity from $a^b \rightarrow a^{b/2}$
 
+\subsection*{Example}
+Given n lights connected to some lights (graph), if you press a light, this and every connected light will change color. Every light begin closed. Find smallest switch presses to open all lights.
 \end{document}
